@@ -10,11 +10,11 @@
 --c-ink-soft:  #6B6178;
 --c-hairline:  #EAE1D6;
 
-  --c-ichika:    #FFD700;   /* eldest — deep red thread   */
-  --c-nino:      #9400D3;   /* second — golden thread     */
-  --c-miku:      #00BFFF;   /* middle — teal thread       */
-  --c-yotsuba:   #00FF00;   /* fourth — green thread      */
-  --c-itsuki:    #FF0000;   /* youngest — lavender thread */
+  --c-ichika:    #D6334A;   /* eldest — deep red thread   */
+  --c-nino:      #F0A500;   /* second — golden thread     */
+  --c-miku:      #1F9DA6;   /* middle — teal thread       */
+  --c-yotsuba:   #57B85A;   /* fourth — green thread      */
+  --c-itsuki:    #B27FE0;   /* youngest — lavender thread */
 
   --grad-braid: conic-gradient(from 0deg,
       var(--c-ichika), var(--c-nino), var(--c-miku),
@@ -435,9 +435,27 @@ button { font: inherit; }
 }
 .nav-ep-btn:hover { background: var(--c-bg); border-color: var(--c-ichika); }
 
+/* --- Corrección de layout: temporadas ya no se superponen con el selector de idioma --- */
+.season-tabs {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  flex-wrap: unset;
+}
+.season-tab {
+  min-width: 0;
+  white-space: normal;
+  text-align: center;
+  word-break: break-word;
+}
+@media (max-width: 480px) {
+  .season-tabs { grid-template-columns: 1fr; }
+}
+
 .player-toolbar {
   display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap;
 }
+.lang-toggle { flex-wrap: wrap; }
+
 
 /* --- imágenes reales: personajes --- */
 .char-portrait .char-img,
@@ -459,3 +477,21 @@ button { font: inherit; }
 .gallery-item .g-tag { position: relative; z-index: 1; }
 
 .lightbox-content .lightbox-img { width: 100%; height: 100%; object-fit: contain; background: #120e19; }
+
+/* --- Flechas de navegación del visor (mismo lenguaje visual que el botón de cerrar) --- */
+.lightbox-nav {
+  position: absolute; top: 50%; transform: translateY(-50%);
+  background: rgba(255,255,255,.12); border: none; color: #fff;
+  width: 44px; height: 44px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer; transition: background .15s ease;
+}
+.lightbox-nav:hover { background: rgba(255,255,255,.25); }
+.lightbox-prev { left: 1rem; }
+.lightbox-next { right: 1rem; }
+.lightbox-nav.is-hidden { display: none; }
+@media (max-width: 600px) {
+  .lightbox-nav { width: 38px; height: 38px; }
+  .lightbox-prev { left: .4rem; }
+  .lightbox-next { right: .4rem; }
+}

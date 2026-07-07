@@ -23,13 +23,13 @@
       personality: "Serena por fuera y siempre la primera en ofrecerse cuando algo sale mal. Ichika carga con una responsabilidad que nadie le pidió, y eso a veces la hace parecer más distante de lo que en realidad es.",
       backstory: "Como la mayor, creció asumiendo que cuidar de sus cuatro hermanas era su trabajo antes que su elección. Sueña con actuar, pero por ahora antepone el bienestar de la familia a sus propios planes.",
       relationships: "Es el punto de referencia para sus hermanas menores, aunque eso no siempre significa que la escuchen. Con Itsuki mantiene una complicidad silenciosa; con Nino, un choque constante de estilos.",
-      quote: "Solo quiero que las cinco seamos felices, aunque eso signifique que yo deba contenerme",
+      quote: "Si alguien tiene que cargar con esto, prefiero que sea yo.",
       trivia: [
         "Aprendió a cocinar viendo programas de televisión a altas horas de la noche.",
         "Guarda una libreta con monólogos que nunca ha mostrado a nadie.",
         "Es la que menos duerme de las cinco, aunque lo disimula bien."
       ],
-      va: { name: "Kana Hanazawa", note: "Voz de Personaje en Japones" }
+      va: { name: "Hana Serizawa", note: "voz de personaje (ficticio, contenido de demostración)" }
     },
     {
       id: "nino", name: "Nino", kanji: "二", role: "La Repostera — segunda hermana",
@@ -37,13 +37,13 @@
       personality: "Directa hasta el punto de sonar cortante, pero increíblemente leal en el momento en que de verdad importa. Nino esconde su cariño detrás de un sarcasmo bien afilado.",
       backstory: "Pasa más tiempo perfeccionando recetas que abriendo un libro de texto. Sueña con tener su propia pastelería algún día, aunque nunca lo diría en voz alta sin quejarse primero.",
       relationships: "Es quien más rápido se pone a la defensiva por sus hermanas, incluso cuando finge que no le importan. Su relación con Ichika suele chispear por diferencias de carácter.",
-      quote: "Escuché que dijiste que nadie en el mundo se enamoraría de un tipo como tú. Bueno, aquí tienes a una",
+      quote: "No es que me importe... es solo que alguien tiene que vigilarte.",
       trivia: [
         "Memoriza recetas enteras antes que fórmulas de examen.",
         "Guarda en secreto los postres que le salen mal para compartirlos con sus hermanas.",
         "Tiene una lista mental de a quién no perdona todavía."
       ],
-      va: { name: "Ayana Taketatsu", note: "Voz de Personaje en Japones" }
+      va: { name: "Rin Kadowaki", note: "voz de personaje (ficticio, contenido de demostración)" }
     },
     {
       id: "miku", name: "Miku", kanji: "三", role: "La Otaku Histórica — hermana del medio",
@@ -51,13 +51,13 @@
       personality: "Callada y observadora, se le dan mejor los gestos que las palabras. Cuando algo le apasiona —sobre todo la historia— es capaz de hablar horas sin darse cuenta.",
       backstory: "Prefiere perderse en estrategias de videojuegos y libros de historia antes que enfrentarse a una conversación incómoda. Detrás de su timidez hay una determinación silenciosa.",
       relationships: "Es la mediadora invisible del grupo: rara vez discute, pero siempre nota cuándo alguna de sus hermanas necesita espacio o compañía.",
-      quote: "Fuutarou... me gustas",
+      quote: "Prefiero decir las cosas... aunque sea con las manos temblando.",
       trivia: [
         "Clasifica a personajes históricos como si fueran cartas coleccionables.",
         "Tiene un estante entero solo de guías de estrategia.",
         "Se sonroja cada vez que tiene que hablar en público."
       ],
-      va: { name: "Miku Itō", note: "Voz de Personaje en Japones" }
+      va: { name: "Yui Amamori", note: "voz de personaje (ficticio, contenido de demostración)" }
     },
     {
       id: "yotsuba", name: "Yotsuba", kanji: "四", role: "La Atleta — cuarta hermana",
@@ -65,13 +65,13 @@
       personality: "Pura energía. Es un desastre con los exámenes, pero la primera en animar a cualquiera que esté teniendo un mal día. No sabe estarse quieta ni cinco minutos.",
       backstory: "Ha probado más clubes deportivos de los que puede recordar y trabaja en turnos parciales para ayudar en casa, aunque eso le reste horas de estudio.",
       relationships: "Es el motor emocional del grupo: cuando alguna hermana se hunde, Yotsuba aparece con una energía imposible de ignorar.",
-      quote: "¡Es por eso que no puedo hacer esto! No puedo ser la única en ser feliz",
+      quote: "¡Si me caigo, me levanto corriendo!",
       trivia: [
         "Ha entrado y salido de once clubes deportivos distintos.",
         "No logra sentarse quieta durante un examen completo.",
         "Es la que más rápido se queda dormida... en cualquier lugar."
       ],
-      va: { name: "Ayane Sakura", note: "Voz de Personaje en Japones" }
+      va: { name: "Kaede Morimura", note: "voz de personaje (ficticio, contenido de demostración)" }
     },
     {
       id: "itsuki", name: "Itsuki", kanji: "五", role: "La Erudita Silenciosa — la menor",
@@ -79,13 +79,13 @@
       personality: "Madura más allá de su edad, aunque eso también significa que guarda sus propias preocupaciones para no sumarle peso a nadie más.",
       backstory: "Es la mejor estudiante de las cinco, pero esa etiqueta esconde una carga silenciosa sobre el futuro de la familia que casi nunca comparte en voz alta.",
       relationships: "Escucha más de lo que habla, y suele ser la primera en notar cuando algo no anda bien con sus hermanas, aunque no siempre sepa cómo decirlo.",
-      quote: "Si no estudiamos juntas, no tiene ningún sentido",
+      quote: "Está bien no saber todas las respuestas todavía.",
       trivia: [
         "Anota los cumpleaños de todos con un año de anticipación.",
         "Es la única de las cinco que lee manuales de instrucciones por gusto.",
         "Prepara té para toda la casa sin que nadie se lo pida."
       ],
-      va: { name: "Inori Minase", note: "Voz de Personaje en Japones" }
+      va: { name: "Sora Igarashi", note: "voz de personaje (ficticio, contenido de demostración)" }
     }
   ];
 
@@ -97,50 +97,50 @@
     T1: {
       label: "Temporada 1", folder: "T1", filePrefix: "cap",
       episodes: [
-        { ep: 1, title: "Las Quintillizas", syn: "Uesugi Fuutarou consigue un trabajo de tutor que promete un sueldo cinco veces superior al habitual. Sin embargo, resulta que va a requerir mucho más trabajo del necesario." },
-        { ep: 2, title: "Declaración en el Tejado", syn: "Futaro propone un examen para zanjar el debate sobre si las quintillizas necesitan o no un tutor." },
-        { ep: 3, title: "Un montón de problemas", syn: "Nino no está contenta de que Futaro esté empezando a llevarse bien con sus hermanas, así que decide tomar cartas en el asunto." },
-        { ep: 4, title: "Día libre", syn: "Futaro recibe su primer pago y decide llevar a Raiha a la sala de juegos, donde siempre ha querido ir." },
-        { ep: 5, title: "Cinco partes para todas", syn: "Los fuegos artificiales han comenzado, pero las chicas siguen separadas. Ichika se aleja sola y Futaro va tras ella." },
-        { ep: 6, title: "Lo que se ha acumulado", syn: "Se acercan los exámenes parciales y el padre de las niñas le propuso a Futaro una tarea aparentemente imposible." },
-        { ep: 7, title: "Oso, oso, mentiroso", syn: "Futaro pasó la noche en el apartamento de las quintillizas. Se despierta con una situación inesperada." },
-        { ep: 8, title: "Fotos del comienzo", syn: "La apretada agenda de Ichika la lleva a intercambiar direcciones de correo electrónico con Futaro, pero también decide chantajearlo para que les pida a las otras hermanas su información de contacto. ¡El inesperado entusiasmo de Futaro" },
-        { ep: 9, title: "La leyenda del destino - Día 1", syn: "¡Ya casi es hora del viaje de campamento escolar y las niñas no pueden esperar! ¿Se hará realidad la leyenda del destino?" },
-        { ep: 10, title: "La leyenda del destino - Día 2", syn: "La prueba de coraje del campamento se convierte en una verdadera prueba para Nino e Itsuki, y después de un caso de identidades equivocadas, ¡el viaje de campamento escolar de Futaro se vuelve aún más complicado!" },
-        { ep: 11, title: "La leyenda del destino - Día 3", syn: "Después de quedar encerrado dentro del cobertizo, ¡Ichika le revela un secreto a Futaro! Mientras tanto, las otras hermanas comienzan a preguntarse adónde huyó la pareja." },
-        { ep: 12, title: "La leyenda del destino - Día 2000", syn: "¡Es el último día de campamento y una de las quintillizas ha desaparecido!" }
+        { ep: 1, title: "Cinco escritorios, un examen", syn: "Un tutor recién contratado descubre que motivar a una quintilliza a la vez es imposible cuando las otras cuatro interrumpen." },
+        { ep: 2, title: "Reglas de la casa", syn: "Entre horarios cruzados y una casa ruidosa, el tutor intenta poner orden antes del primer simulacro de examen." },
+        { ep: 3, title: "La receta equivocada", syn: "Un intento de acercarse a través de la cocina termina en un desastre que, sorprendentemente, ayuda a romper el hielo." },
+        { ep: 4, title: "El club que no era", syn: "Una excursión escolar obliga a las hermanas a colaborar en equipo por primera vez en mucho tiempo." },
+        { ep: 5, title: "Notas bajo la manga", syn: "Los primeros resultados de un examen de práctica sacan a la luz viejas inseguridades entre las hermanas." },
+        { ep: 6, title: "Cinco maneras de decir 'gracias'", syn: "Cada hermana encuentra, a su manera, un pequeño gesto de agradecimiento hacia su tutor." },
+        { ep: 7, title: "Examen de mitad de año", syn: "La presión de las calificaciones saca lo mejor y lo peor de cada una de las cinco hermanas." },
+        { ep: 8, title: "El diario compartido", syn: "Un cuaderno olvidado en la sala termina revelando pensamientos que nadie pensaba compartir." },
+        { ep: 9, title: "Un secreto a voces", syn: "Todas sospechan que algo ha cambiado entre el tutor y una de las hermanas, pero nadie lo dice en voz alta." },
+        { ep: 10, title: "La foto que nadie mencionó", syn: "Una fotografía antigua reabre preguntas sobre el pasado de la familia que prefieren no discutir." },
+        { ep: 11, title: "Cuando el tutor casi renuncia", syn: "Un malentendido pone en riesgo la continuidad de las clases, y las cinco deben decidir qué tan importante se ha vuelto." },
+        { ep: 12, title: "Cinco promesas para el verano", syn: "El cierre de la primera temporada deja a cada hermana con una promesa distinta que cumplir." }
       ]
     },
     T2: {
       label: "Temporada 2", folder: "T2", filePrefix: "cap",
       episodes: [
-        { ep: 1, title: "Enredos y desventuras en Kioto", syn: "Las vacaciones deberían servir para estudiar, pero los planes de las cinco tienen otras ideas." },
-        { ep: 2, title: "Siete despedidas (Primera parte)", syn: "Un festival local se convierte en la excusa perfecta para revelar rivalidades y complicidades nuevas." },
-        { ep: 3, title: "Siete despedidas (Segunda parte)", syn: "Una de las hermanas escribe una carta que nunca planea entregar, hasta que las circunstancias la obligan a reconsiderarlo." },
-        { ep: 4, title: "Siete despedidas (Tercera parte)", syn: "La presión de un examen importante pone a prueba cuánto ha cambiado realmente la dinámica familiar." },
-        { ep: 5, title: "Muy buen trabajo", syn: "Cada hermana empieza a imaginar un futuro distinto, y no todos apuntan en la misma dirección." },
-        { ep: 6, title: "El último examen", syn: "Un cierre agridulce de mitad de temporada recuerda que, pase lo que pase, siguen siendo cinco partes de un mismo lazo." },
-        { ep: 7, title: "Comienza la ofensiva", syn: "El nuevo semestre trae compañeros, presiones y comparaciones que ninguna de las cinco esperaba." },
-        { ep: 8, title: "Huevos revueltos", syn: "Una competencia escolar pone a dos de las hermanas en bandos opuestos por primera vez." },
-        { ep: 9, title: "Bienvenidos a la clase 3-1", syn: "Un imprevisto familiar obliga a todos a salir de la rutina y a verse bajo una luz distinta." },
-        { ep: 10, title: "Las cinco grullas devuelven el favor", syn: "Algunas respuestas que llevaban tiempo evitando finalmente salen a la superficie." },
-        { ep: 11, title: "Guerra de hermanas (Primera Parte)", syn: "Todo lo aprendido —y lo no aprendido— se pone a prueba en un último examen decisivo." },
-        { ep: 12, title: "Guerra de hermanas (Segunda Parte)", syn: "El cierre de temporada reúne a las cinco hermanas para una despedida agridulce que promete no ser la última." }
+        { ep: 1, title: "Un verano de repaso", syn: "Las vacaciones deberían servir para estudiar, pero los planes de las cinco tienen otras ideas." },
+        { ep: 2, title: "El festival del distrito", syn: "Un festival local se convierte en la excusa perfecta para revelar rivalidades y complicidades nuevas." },
+        { ep: 3, title: "Cartas sin enviar", syn: "Una de las hermanas escribe una carta que nunca planea entregar, hasta que las circunstancias la obligan a reconsiderarlo." },
+        { ep: 4, title: "El simulacro decisivo", syn: "La presión de un examen importante pone a prueba cuánto ha cambiado realmente la dinámica familiar." },
+        { ep: 5, title: "Cinco caminos", syn: "Cada hermana empieza a imaginar un futuro distinto, y no todos apuntan en la misma dirección." },
+        { ep: 6, title: "El hilo que las une", syn: "Un cierre agridulce de mitad de temporada recuerda que, pase lo que pase, siguen siendo cinco partes de un mismo lazo." },
+        { ep: 7, title: "Regreso a clases", syn: "El nuevo semestre trae compañeros, presiones y comparaciones que ninguna de las cinco esperaba." },
+        { ep: 8, title: "La rivalidad que no esperaban", syn: "Una competencia escolar pone a dos de las hermanas en bandos opuestos por primera vez." },
+        { ep: 9, title: "Un viaje inesperado", syn: "Un imprevisto familiar obliga a todos a salir de la rutina y a verse bajo una luz distinta." },
+        { ep: 10, title: "La verdad a medias", syn: "Algunas respuestas que llevaban tiempo evitando finalmente salen a la superficie." },
+        { ep: 11, title: "El examen final", syn: "Todo lo aprendido —y lo no aprendido— se pone a prueba en un último examen decisivo." },
+        { ep: 12, title: "Cinco quintillizas, una despedida", syn: "El cierre de temporada reúne a las cinco hermanas para una despedida agridulce que promete no ser la última." }
       ]
     },
     OVAS: {
       label: "OVAs", folder: "OVAS", filePrefix: "ova",
       episodes: [
-        { ep: 1, title: "Unas vacaciones de verano inesperadas (Parte 1)", syn: "Las hermanas intentan pasar un día entero sin hablar de estudios, con resultados poco previsibles." },
-        { ep: 2, title: "Unas vacaciones de verano inesperadas (Parte 2)", syn: "Un álbum de fotos familiar despierta anécdotas que cada hermana recuerda de forma distinta." },
-        { ep: 3, title: "El incidente de las quintillizas", syn: "Una nevada fuera de temporada deja a todos atrapados en casa durante una tarde entera." },
-        { ep: 4, title: "La gran misión de las quintillizas", syn: "Una mirada íntima a los nervios de cada hermana la noche antes de un examen decisivo." }
+        { ep: 1, title: "Un día sin agenda", syn: "Las hermanas intentan pasar un día entero sin hablar de estudios, con resultados poco previsibles." },
+        { ep: 2, title: "El álbum olvidado", syn: "Un álbum de fotos familiar despierta anécdotas que cada hermana recuerda de forma distinta." },
+        { ep: 3, title: "Nieve inesperada", syn: "Una nevada fuera de temporada deja a todos atrapados en casa durante una tarde entera." },
+        { ep: 4, title: "Antes del examen final", syn: "Una mirada íntima a los nervios de cada hermana la noche antes de un examen decisivo." }
       ]
     },
     PELICULA: {
       label: "Película", folder: "Pelicula", filePrefix: "pelicula", isMovie: true,
       episodes: [
-        { ep: 1, title: "Las Quintillizas: La película", syn: "Años después de los eventos de la serie, un reencuentro obliga a las cinco hermanas —y a su antiguo tutor— a enfrentar preguntas que dejaron pendientes." }
+        { ep: 1, title: "El hilo hacia el futuro", syn: "Años después de los eventos de la serie, un reencuentro obliga a las cinco hermanas —y a su antiguo tutor— a enfrentar preguntas que dejaron pendientes." }
       ]
     }
   };
@@ -320,8 +320,15 @@
       });
     });
 
-    $$(".mini-thumb", charPanelEl).forEach((thumb) => {
-      thumb.addEventListener("click", () => openLightbox(thumb.dataset.cap, c.color, thumb.dataset.img));
+    $$(".mini-thumb", charPanelEl).forEach((thumb, i) => {
+      const charImages = [
+        { src: `${CHAR_IMG_BASE}/${c.id}/main.jpg`, caption: c.name, color: c.color },
+        { src: `${CHAR_IMG_BASE}/${c.id}/thumb1.jpg`, caption: `${c.name} — look 1`, color: c.color },
+        { src: `${CHAR_IMG_BASE}/${c.id}/thumb2.jpg`, caption: `${c.name} — look 2`, color: c.color },
+        { src: `${CHAR_IMG_BASE}/${c.id}/thumb3.jpg`, caption: `${c.name} — look 3`, color: c.color },
+        { src: `${CHAR_IMG_BASE}/${c.id}/thumb4.jpg`, caption: `${c.name} — look 4`, color: c.color }
+      ];
+      thumb.addEventListener("click", () => openLightbox(thumb.dataset.cap, c.color, thumb.dataset.img, charImages, i + 1));
     });
   }
 
@@ -446,7 +453,7 @@
     return `${s.label} · E${String(ep.ep).padStart(2, "0")}`;
   }
 
-  function loadEpisode(index) {
+  function loadEpisode(index, autoplay = true) {
     activeEpIndex = index;
     const s = SEASONS[activeSeason];
     const ep = s.episodes[index];
@@ -457,10 +464,10 @@
     renderEpisodeList();
     renderWatchNext();
     saveState();
-    loadSource(true);
+    loadSource(true, autoplay);
   }
 
-  function loadSource(resetTime) {
+  function loadSource(resetTime, autoplay = true) {
     const s = SEASONS[activeSeason];
     const ep = s.episodes[activeEpIndex];
     const wasPlaying = !videoEl.paused && !videoEl.ended;
@@ -475,10 +482,13 @@
     videoEl.src = path;
     videoEl.currentTime = time;
     videoEl.load();
-    if (wasPlaying || resetTime) {
+    if (autoplay && (wasPlaying || resetTime)) {
       videoEl.play().catch(() => {
         // Autoplay bloqueado o archivo aún no confirmado — el usuario puede darle play manualmente.
       });
+    } else {
+      videoEl.pause();
+      setPlayIcon(false);
     }
   }
 
@@ -584,7 +594,7 @@
   renderSeasonTabs();
   renderLangToggle();
   renderEpisodeList();
-  loadEpisode(activeEpIndex);
+  loadEpisode(activeEpIndex, false);
 
   /* ---------------------------------------------------------
      GALLERY
@@ -600,7 +610,17 @@
       </button>
     `).join("");
     $$(".gallery-item", galleryGrid).forEach((btn) => {
-      btn.addEventListener("click", () => openLightbox(btn.dataset.title, btn.dataset.color, btn.dataset.img));
+      btn.addEventListener("click", () => {
+        // Solo se recorren las imágenes actualmente visibles según el filtro activo.
+        const visibleItems = $$(".gallery-item", galleryGrid).filter((item) => !item.classList.contains("hide"));
+        const galleryImages = visibleItems.map((item) => ({
+          src: item.dataset.img,
+          caption: item.dataset.title,
+          color: item.dataset.color
+        }));
+        const startIndex = visibleItems.indexOf(btn);
+        openLightbox(btn.dataset.title, btn.dataset.color, btn.dataset.img, galleryImages, startIndex);
+      });
     });
   }
   renderGallery();
@@ -622,8 +642,13 @@
   const lightbox = $("#lightbox");
   const lightboxContent = $("#lightboxContent");
   const lightboxClose = $("#lightboxClose");
+  const lightboxPrev = $("#lightboxPrev");
+  const lightboxNext = $("#lightboxNext");
 
-  function openLightbox(caption, color, imgSrc) {
+  let lightboxImages = null;
+  let lightboxIndex = 0;
+
+  function renderLightboxImage(caption, color, imgSrc) {
     lightboxContent.style.background = `linear-gradient(150deg, ${color || "#D6334A"}, #241d30)`;
     const fallback = `<div style="display:flex;align-items:flex-end;height:100%;padding:1.4rem;color:#fff;font-weight:700;">${caption}</div>`;
     if (imgSrc) {
@@ -634,12 +659,42 @@
     } else {
       lightboxContent.innerHTML = fallback;
     }
+  }
+
+  // imagesList (opcional) permite recorrer varias imágenes sin cerrar el visor (usado en Personajes).
+  // La Galería sigue llamando esta función sin ese parámetro, por lo que su comportamiento no cambia.
+  function openLightbox(caption, color, imgSrc, imagesList, startIndex) {
+    lightboxImages = Array.isArray(imagesList) && imagesList.length ? imagesList : null;
+    lightboxIndex = typeof startIndex === "number" ? startIndex : 0;
+    renderLightboxImage(caption, color, imgSrc);
+
+    const showNav = !!(lightboxImages && lightboxImages.length > 1);
+    lightboxPrev.classList.toggle("is-hidden", !showNav);
+    lightboxNext.classList.toggle("is-hidden", !showNav);
+
     lightbox.hidden = false;
   }
+
+  function showLightboxAt(index) {
+    if (!lightboxImages) return;
+    const total = lightboxImages.length;
+    lightboxIndex = (index + total) % total;
+    const item = lightboxImages[lightboxIndex];
+    renderLightboxImage(item.caption, item.color, item.src);
+  }
+
+  lightboxPrev.addEventListener("click", () => showLightboxAt(lightboxIndex - 1));
+  lightboxNext.addEventListener("click", () => showLightboxAt(lightboxIndex + 1));
+
   function closeLightbox() { lightbox.hidden = true; }
   lightboxClose.addEventListener("click", closeLightbox);
   lightbox.addEventListener("click", (e) => { if (e.target === lightbox) closeLightbox(); });
-  document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeLightbox(); });
+  document.addEventListener("keydown", (e) => {
+    if (lightbox.hidden) return;
+    if (e.key === "Escape") { closeLightbox(); return; }
+    if (e.key === "ArrowLeft") { showLightboxAt(lightboxIndex - 1); return; }
+    if (e.key === "ArrowRight") { showLightboxAt(lightboxIndex + 1); return; }
+  });
 
   /* ---------------------------------------------------------
      MUSIC

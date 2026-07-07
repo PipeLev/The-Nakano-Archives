@@ -231,7 +231,13 @@
 <!-- ============ LIGHTBOX (gallery) ============ -->
 <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Vista ampliada" hidden>
   <button class="lightbox-close" id="lightboxClose" aria-label="Cerrar">&times;</button>
+  <button class="lightbox-nav lightbox-prev is-hidden" id="lightboxPrev" aria-label="Imagen anterior">
+    <svg viewBox="0 0 24 24" width="20" height="20"><polygon points="16,4 6,12 16,20" fill="currentColor"/></svg>
+  </button>
   <div class="lightbox-content" id="lightboxContent"></div>
+  <button class="lightbox-nav lightbox-next is-hidden" id="lightboxNext" aria-label="Imagen siguiente">
+    <svg viewBox="0 0 24 24" width="20" height="20"><polygon points="8,4 18,12 8,20" fill="currentColor"/></svg>
+  </button>
 </div>
 
 <!-- ============ FOOTER ============ -->
