@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/PipeLev/Nakano-Project/blob/63f775b84f53b6d7b07cfacf0e445301a610d76b/assets/banner.png" alt="Nakano Project Banner" width="100%">
+  <img src="https://github.com/PipeLev/Nakano-Project/blob/ca7ef01f26ff4848029923692a1c3175e6c4898b/assets/banner.png" alt="Nakano Project Banner" width="100%">
 </p>
 
 # 🌸 The Nakano Archives 
