@@ -2,9 +2,9 @@
   <img src="https://github.com/PipeLev/Nakano-Project/blob/ca7ef01f26ff4848029923692a1c3175e6c4898b/assets/banner.png" alt="Nakano Project Banner" width="100%">
 </p>
 
-# 🌸 The Nakano Archives 
+# 🌸 The Nakano Project
 
-Bienvenido a **The Nakano Archives**, una plataforma digital inmersiva diseñada para los fans de *Gotoubun no Hanayome* (Las Quintillizas). Este proyecto es una web de una sola página (SPA) que centraliza la experiencia del fan en un entorno estéticamente cuidado y altamente interactivo.
+Bienvenido a **The Nakano project**, una plataforma digital inmersiva diseñada para los fans de *Gotoubun no Hanayome* (Las Quintillizas). Este proyecto es una web de una sola página (SPA) que centraliza la experiencia del fan en un entorno estéticamente cuidado y altamente interactivo.
 
 ---
 
