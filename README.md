@@ -44,7 +44,7 @@ El sitio web adopta una estética **"Soft-Modern"** inspirada en la paleta de co
 ---
 
 ## 💻 Sitio Web
-https://nakano-project-cakgjwvxu-pipe-lev.vercel.app/
+https://nakano-project.vercel.app/
 ---
 
 ## ⚖️ Descargo de Responsabilidad
