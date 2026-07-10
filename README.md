@@ -43,13 +43,8 @@ El sitio web adopta una estética **"Soft-Modern"** inspirada en la paleta de co
 
 ---
 
-## 💻 Instalación y Uso
-
-1.  Clona este repositorio en tu máquina local.
-2.  Abre la carpeta en tu editor de código preferido (ej. **VS Code**).
-3.  Para visualizar los cambios en tiempo real, te recomiendo utilizar la extensión **"Live Server"** en VS Code.
-4.  Asegúrate de que la estructura de tus carpetas de assets (`/videos`, `/images`, etc.) coincida con las rutas definidas en `script.js`.
-
+## 💻 Sitio Web
+https://nakano-project-cakgjwvxu-pipe-lev.vercel.app/
 ---
 
 ## ⚖️ Descargo de Responsabilidad
