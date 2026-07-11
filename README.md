@@ -1,155 +1,231 @@
 # 🌸 The Nakano Archives
 
-<p align="center">
-  <img src="assets/img/logo/logo.png" alt="The Nakano Archives Logo" width="300">
-</p>
+> El archivo definitivo dedicado a **Gotoubun no Hanayome (The Quintessential Quintuplets)**.
 
-<p align="center">
-  <strong>El archivo definitivo dedicado a las quintillizas de Gotoubun no Hanayome.</strong>
-</p>
-
-<p align="center">
-Proyecto fan creado sin fines de lucro.
-</p>
+![Version](https://img.shields.io/badge/version-1.1.0-ff8fb1?style=for-the-badge)
+![Status](https://img.shields.io/badge/status-Stable-success?style=for-the-badge)
+![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
+![Made with](https://img.shields.io/badge/Made%20with-HTML%20%7C%20CSS%20%7C%20JavaScript-orange?style=for-the-badge)
 
 ---
 
 ## 📖 Descripción
 
-**The Nakano Archives** es una página web dedicada al universo de **Gotoubun no Hanayome (The Quintessential Quintuplets)**.
+**The Nakano Archives** es un proyecto fan creado para reunir información, imágenes, música y curiosidades sobre **Gotoubun no Hanayome**, ofreciendo una experiencia moderna, rápida y completamente responsive.
 
-El proyecto reúne información de las cinco hermanas Nakano, una galería de imágenes, reproductor de música, fondos de pantalla y otros contenidos para los fanáticos de la serie.
-
----
-
-## ✨ Características
-
-- 🌸 Información completa de las cinco hermanas Nakano.
-- 🖼️ Galería organizada por personaje.
-- 🎵 Reproductor de música integrado.
-- 📱 Diseño responsive.
-- 🎨 Interfaz inspirada en la estética del anime.
-- ❤️ Animaciones suaves y efectos visuales.
-- 🌙 Navegación intuitiva.
-- 🖼️ Fondos de pantalla descargables.
-- 📚 Proyecto organizado por módulos.
+El proyecto está desarrollado únicamente con tecnologías web nativas, sin frameworks ni bases de datos.
 
 ---
 
-## 👭 Personajes
+# ✨ Novedades de la versión 1.1.0
 
-- 💛 Ichika Nakano
-- 💜 Nino Nakano
-- 💙 Miku Nakano
-- 💚 Yotsuba Nakano
-- ❤️ Itsuki Nakano
+La versión **1.1.0** representa la primera gran actualización del proyecto.
+
+### 🌙 Nuevo sistema de Dark Mode
+
+- Cambio entre modo claro y oscuro.
+- Preferencia guardada automáticamente.
+- Compatible con todas las páginas.
+- Transiciones suaves.
 
 ---
 
-## 📂 Estructura del proyecto
+### 🧭 Mejoras en la navegación
+
+- Header optimizado.
+- Mejor responsive.
+- Menú más limpio.
+- Mejor contraste.
+- Correcciones visuales.
+
+---
+
+### 🖼 Mejoras en Galería
+
+- Corrección de carga de imágenes.
+- Mejor rendimiento.
+- Lazy Loading.
+- Optimización visual.
+
+---
+
+### 👥 Mejoras en Personajes
+
+- Corrección de imágenes.
+- Mejor presentación.
+- Información reorganizada.
+- Mejor diseño responsive.
+
+---
+
+### ⚡ Mejoras generales
+
+- Mejor rendimiento.
+- Optimización del CSS.
+- Código más limpio.
+- Mejor organización de archivos.
+- Correcciones de errores.
+
+---
+
+# 📂 Estructura del proyecto
 
 ```text
-Nakano Project/
+The-Nakano-Archives/
 │
 ├── assets/
+│   ├── css/
 │   ├── img/
 │   │   ├── banner/
 │   │   ├── gallery/
 │   │   ├── icons/
 │   │   ├── logo/
+│   │   ├── music/
 │   │   └── personajes/
-│   │
-│   ├── css/
 │   └── js/
 │
 ├── pages/
+│   ├── personajes.html
+│   ├── galeria.html
+│   ├── musica.html
+│   ├── curiosidades.html
+│   └── acerca.html
 │
-├── index.html
 ├── favicon.ico
 ├── site.webmanifest
-└── README.md
+├── LICENSE
+├── README.md
+└── index.html
 ```
 
 ---
 
-## 🌐 Sitio Web
-https://nakano-project.vercel.app/
----
-
-## 🛠️ Tecnologías utilizadas
+# 🚀 Tecnologías
 
 - HTML5
 - CSS3
-- JavaScript (Vanilla)
-- SVG
-- Web Manifest
+- JavaScript (ES6)
 - Responsive Design
+- CSS Variables
+- LocalStorage
 
 ---
 
-## 🎵 Contenido
+# 📱 Características
 
-El sitio incluye:
-
-- Información de personajes
-- Galería
-- Música
-- Fondos
-- Créditos
-- Enlaces sociales
-
----
-
-## 🌐 Redes
-
-- YouTube: https://www.youtube.com/@pipelev
-- Twitch: https://www.twitch.tv/pipelev
+- ✅ Responsive
+- ✅ Dark Mode
+- ✅ Animaciones suaves
+- ✅ Diseño moderno
+- ✅ Optimizado para móviles
+- ✅ Favicon personalizado
+- ✅ Navegación fluida
+- ✅ Sin dependencias externas
 
 ---
 
-## 📜 Licencia
+# 📸 Contenido
 
-Este proyecto es un **fan project** creado únicamente con fines educativos y de entretenimiento.
+Actualmente el sitio incluye:
+
+- 🌸 Inicio
+- 👥 Personajes
+- 🖼 Galería
+- 🎵 Música
+- 💡 Curiosidades
+- ℹ️ Acerca
+
+---
+
+# 🌙 Dark Mode
+
+El modo oscuro puede activarse desde el botón ubicado en el encabezado.
+
+Características:
+
+- Guarda la preferencia automáticamente.
+- Compatible con todo el sitio.
+- Cambios instantáneos.
+- Sin recargar la página.
+
+---
+
+# 📄 Licencia
+
+Este proyecto está distribuido bajo la licencia **MIT**.
+
+Consulta el archivo **LICENSE** para más información.
+
+---
+
+# ⚠️ Aviso
+
+Este proyecto es un **fan project** sin fines de lucro.
 
 **Gotoubun no Hanayome** y todos sus personajes pertenecen a:
 
 - Negi Haruba
 - Kodansha
+- Bibury Animation Studios
+- TBS
 
-Todo el material utilizado pertenece a sus respectivos propietarios.
-
----
-
-## ❤️ Créditos
-
-Desarrollado por **PipeLev**
-
-Agradecimiento especial a toda la comunidad de **Gotoubun no Hanayome** por mantener vivo el cariño hacia la obra.
+Este sitio no pretende infringir ningún derecho de autor.
 
 ---
 
-## ⭐ Estado del proyecto
+# 👨‍💻 Desarrollador
 
-🟢 En desarrollo activo
+**PipeLev**
 
-Versión actual:
+GitHub
+
+https://github.com/PipeLev
+
+YouTube
+
+https://www.youtube.com/@pipelev
+
+Twitch
+
+https://www.twitch.tv/pipelev
+
+---
+
+# 📌 Estado del proyecto
+
+Versión actual
 
 ```text
-v1.0.0
+v1.1.0
+```
+
+Estado
+
+```text
+Stable Release
+```
+
+Última actualización
+
+```text
+Julio 2026
 ```
 
 ---
-## 📄 License
 
-The source code of this project is licensed under the **MIT License**.
+## 🌸 Changelog v1.1.0
 
-This project is a **fan-made, non-commercial project** inspired by **Gotoubun no Hanayome (The Quintessential Quintuplets)**.
-
-All rights to the original franchise—including characters, artwork, logos, names, music, and other official assets—belong to **Negi Haruba**, **Kodansha**, and their respective rights holders.
-
-The MIT License applies **only to the original source code** created for this project and does not grant any rights over the copyrighted content of the original work.
+- ✨ Nuevo Dark Mode.
+- 🎨 Nuevo logo oficial.
+- 🖼 Favicons actualizados.
+- 🎵 Nueva sección Música.
+- 🧭 Mejor navegación.
+- 🦶 Footer renovado.
+- 📸 Correcciones en Galería.
+- 👥 Mejoras en Personajes.
+- ⚡ Optimización general.
+- 🐞 Corrección de múltiples errores.
 
 ---
-<p align="center">
-🌸 Hecho con cariño para la comunidad de Gotoubun no Hanayome 🌸
-</p>
+
+**The Nakano Archives © 2026 — Proyecto fan hecho con 🌸 para la comunidad de Gotoubun no Hanayome.**
