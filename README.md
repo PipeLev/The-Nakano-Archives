@@ -139,7 +139,17 @@ v1.0.0
 ```
 
 ---
+## 📄 License
 
+The source code of this project is licensed under the **MIT License**.
+
+This project is a **fan-made, non-commercial project** inspired by **Gotoubun no Hanayome (The Quintessential Quintuplets)**.
+
+All rights to the original franchise—including characters, artwork, logos, names, music, and other official assets—belong to **Negi Haruba**, **Kodansha**, and their respective rights holders.
+
+The MIT License applies **only to the original source code** created for this project and does not grant any rights over the copyrighted content of the original work.
+
+---
 <p align="center">
 🌸 Hecho con cariño para la comunidad de Gotoubun no Hanayome 🌸
 </p>
