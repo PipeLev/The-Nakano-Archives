@@ -11,6 +11,19 @@
   .personajes-grid {
     gap: var(--space-md);
   }
+
+  .search-modal {
+    max-width: 90vw;
+  }
+
+  .lightbox-prev,
+  .lightbox-next {
+    width: 40px;
+    height: 40px;
+  }
+
+  .lightbox-prev { left: var(--space-sm); }
+  .lightbox-next { right: var(--space-sm); }
 }
 
 /* ========== MÓVILES GRANDES ========== */
@@ -131,6 +144,38 @@
   .footer-links {
     justify-content: center;
   }
+
+  .search-modal {
+    max-width: 95vw;
+    max-height: 80vh;
+    margin: 0 var(--space-sm);
+  }
+
+  .lightbox-image-container {
+    inset: 50px var(--space-sm);
+  }
+
+  .lightbox-zoom-controls {
+    bottom: var(--space-lg);
+    gap: var(--space-xs);
+  }
+
+  .stats-container {
+    gap: var(--space-md);
+    flex-wrap: wrap;
+  }
+
+  .stat-badge {
+    min-width: 70px;
+    padding: var(--space-sm);
+  }
+
+  .scroll-top-btn {
+    bottom: var(--space-md);
+    right: var(--space-md);
+    width: 40px;
+    height: 40px;
+  }
 }
 
 /* ========== MÓVILES PEQUEÑOS ========== */
@@ -218,5 +263,42 @@
 
   .acerca-card h2 {
     font-size: var(--text-lg);
+  }
+
+  .search-modal {
+    max-width: 100vw;
+    border-radius: 0;
+    max-height: 100vh;
+    margin: 0;
+  }
+
+  .lightbox-close {
+    top: var(--space-sm);
+    right: var(--space-sm);
+    width: 38px;
+    height: 38px;
+  }
+
+  .lightbox-prev,
+  .lightbox-next {
+    width: 34px;
+    height: 34px;
+    font-size: 1rem;
+  }
+
+  .lightbox-prev { left: var(--space-xs); }
+  .lightbox-next { right: var(--space-xs); }
+
+  .lightbox-zoom-controls button {
+    width: 32px;
+    height: 32px;
+    font-size: 0.9rem;
+  }
+
+  .theme-toggle-btn,
+  .search-toggle-btn {
+    width: 34px;
+    height: 34px;
+    font-size: 1rem;
   }
 }

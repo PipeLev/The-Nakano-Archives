@@ -17,7 +17,8 @@
   border-radius: var(--radius-md);
   font-size: var(--text-sm);
   font-weight: 500;
-  color: var(--text-secondary);
+  color: var(--nav-text, var(--text-secondary));
+  background: transparent;
   transition: all var(--transition-fast);
   position: relative;
   white-space: nowrap;
@@ -39,8 +40,8 @@
 }
 
 .nav-link:hover {
-  color: var(--color-primary-dark);
-  background: rgba(242, 160, 181, 0.08);
+  color: var(--nav-text-hover, var(--color-primary-dark));
+  background: var(--nav-hover-bg, rgba(242, 160, 181, 0.08));
 }
 
 .nav-link:hover::after {
@@ -48,8 +49,8 @@
 }
 
 .nav-link.active {
-  color: var(--color-primary-dark);
-  background: rgba(242, 160, 181, 0.14);
+  color: var(--nav-active-text, var(--color-primary-dark));
+  background: var(--nav-active-bg, rgba(242, 160, 181, 0.14));
   font-weight: 600;
 }
 
@@ -91,7 +92,7 @@
     right: -320px;
     width: 300px;
     height: 100vh;
-    background: rgba(253, 246, 248, 0.98);
+    background: var(--nav-mobile-bg, rgba(253, 246, 248, 0.98));
     backdrop-filter: var(--glass-blur-lg);
     -webkit-backdrop-filter: var(--glass-blur-lg);
     flex-direction: column;

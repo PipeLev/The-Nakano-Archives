@@ -21,6 +21,41 @@
   display: inline-block;
 }
 
+/* ========== FILTROS DE PLAYLIST ========== */
+.playlist-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  justify-content: center;
+  margin-bottom: var(--space-3xl);
+}
+
+.playlist-filters .filter-btn {
+  padding: 0.55rem 1.4rem;
+  border-radius: var(--radius-full);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  background: var(--bg-surface);
+  color: var(--text-secondary);
+  border: 2px solid transparent;
+  transition: all var(--transition-fast);
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.playlist-filters .filter-btn:hover {
+  background: var(--color-primary-lighter);
+  color: var(--color-primary-dark);
+  border-color: var(--color-primary-light);
+}
+
+.playlist-filters .filter-btn.active {
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+  color: var(--text-white);
+  border-color: transparent;
+  box-shadow: 0 4px 12px rgba(242, 160, 181, 0.3);
+}
+
 /* ========== CANCIONES GRID ========== */
 .canciones-grid {
   display: grid;
@@ -37,6 +72,7 @@
   transition: all var(--transition-base);
   display: flex;
   flex-direction: row;
+  position: relative;
 }
 
 .cancion-card:hover {
@@ -44,11 +80,15 @@
   box-shadow: var(--shadow-lg);
 }
 
+.cancion-card.hidden {
+  display: none;
+}
+
 .cancion-thumb {
   flex-shrink: 0;
   width: 140px;
-  height: auto;
   overflow: hidden;
+  position: relative;
 }
 
 .cancion-thumb img {
@@ -108,6 +148,44 @@
   display: flex;
   align-items: center;
   gap: var(--space-2xs);
+}
+
+/* ========== BOTÓN FAVORITO EN CANCIONES ========== */
+.cancion-card .fav-btn {
+  position: absolute;
+  top: var(--space-sm);
+  right: var(--space-sm);
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.35);
+  color: white;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 5;
+  transition: all var(--transition-fast);
+  border: none;
+  opacity: 0;
+  transform: scale(0.8);
+}
+
+.cancion-card:hover .fav-btn {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.cancion-card .fav-btn:hover {
+  background: rgba(242, 160, 181, 0.8);
+  transform: scale(1.15) !important;
+}
+
+.cancion-card .fav-btn.active {
+  opacity: 1;
+  background: rgba(242, 160, 181, 0.9);
+  transform: scale(1);
 }
 
 /* ========== RESPONSIVE ========== */

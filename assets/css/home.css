@@ -6,12 +6,7 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  background: linear-gradient(160deg,
-    rgba(253, 246, 248, 0.4) 0%,
-    rgba(242, 160, 181, 0.18) 30%,
-    rgba(197, 163, 212, 0.12) 60%,
-    rgba(253, 246, 248, 0.4) 100%
-  );
+  background: var(--bg-body);
 }
 
 .hero-background {
@@ -48,12 +43,12 @@
   text-transform: uppercase;
   letter-spacing: 0.2em;
   color: var(--color-primary-dark);
-  background: rgba(242, 160, 181, 0.15);
+  background: var(--color-primary-lighter);
   backdrop-filter: blur(4px);
   padding: 0.4rem 1.2rem;
   border-radius: var(--radius-full);
   margin-bottom: var(--space-lg);
-  border: 1px solid rgba(242, 160, 181, 0.2);
+  border: 1px solid var(--border-light);
 }
 
 .hero-title {
@@ -213,6 +208,7 @@
   font-size: var(--text-lg);
   font-weight: 700;
   margin-bottom: var(--space-2xs);
+  color: var(--text-primary);
 }
 
 .card-role {
@@ -259,10 +255,7 @@
 /* ========== MÚSICA PREVIEW ========== */
 .musica-preview-section {
   padding: var(--space-5xl) 0;
-  background: linear-gradient(160deg,
-    rgba(197, 163, 212, 0.06) 0%,
-    rgba(242, 160, 181, 0.06) 100%
-  );
+  background: var(--bg-body);
   text-align: center;
 }
 
@@ -288,7 +281,7 @@
   background: var(--bg-glass);
   backdrop-filter: var(--glass-blur-md);
   -webkit-backdrop-filter: var(--glass-blur-md);
-  border: var(--glass-border);
+  border: 1px solid var(--border-glass);
   border-radius: var(--radius-2xl);
   box-shadow: var(--shadow-glass);
 }

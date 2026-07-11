@@ -91,6 +91,27 @@
   }
 }
 
+/* ========== EASTER EGG: PÉTALOS DE SAKURA ========== */
+@keyframes sakuraFall {
+  0% {
+    transform: translateY(-10vh) translateX(0) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(110vh) translateX(100px) rotate(720deg);
+    opacity: 0;
+  }
+}
+
+.sakura-petal {
+  position: fixed;
+  top: -10vh;
+  z-index: var(--z-tooltip);
+  pointer-events: none;
+  font-size: 1.5rem;
+  animation: sakuraFall linear forwards;
+}
+
 /* ========== CLASES DE ANIMACIÓN ========== */
 .animate-fade-in { animation: fadeIn 0.6s ease-out; }
 .animate-fade-out { animation: fadeOut 0.6s ease-out; }

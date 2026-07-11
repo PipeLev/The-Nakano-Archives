@@ -6,17 +6,16 @@
   right: 0;
   z-index: var(--z-header);
   height: var(--header-height);
-  background: rgba(253, 246, 248, 0.82);
+  background: var(--header-bg);
   backdrop-filter: var(--glass-blur-lg);
   -webkit-backdrop-filter: var(--glass-blur-lg);
-  border-bottom: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--header-border);
   transition: all var(--transition-base);
 }
 
 .main-header.scrolled {
-  background: rgba(253, 246, 248, 0.95);
-  box-shadow: var(--shadow-md);
-  border-bottom-color: var(--border-medium);
+  background: var(--header-bg-scrolled);
+  box-shadow: var(--header-shadow);
 }
 
 .header-container {
@@ -45,12 +44,10 @@
   border: none;
   background: none;
   box-shadow: none;
-  transition: transform 0.35s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: transform 0.35s var(--transition-bounce);
 }
 
-.logo-area:hover .logo-img {
-  transform: scale(1.05);
-}
+.logo-area:hover .logo-img { transform: scale(1.05); }
 
 .site-title {
   font-family: var(--font-family-display);
@@ -62,6 +59,13 @@
   background-clip: text;
   letter-spacing: -0.02em;
   white-space: nowrap;
+}
+
+html.dark .site-title {
+  background: linear-gradient(135deg, #f2a0b5, #c5a3d4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 /* ========== BOTÓN HAMBURGUESA ========== */
@@ -82,29 +86,18 @@
   transition: background var(--transition-fast);
 }
 
-.hamburger-btn:hover {
-  background: rgba(242, 160, 181, 0.1);
-}
+.hamburger-btn:hover { background: var(--header-hamburger-hover); }
 
 .hamburger-line {
   display: block;
   width: 24px;
   height: 2.5px;
-  background: var(--text-primary);
+  background: var(--header-hamburger-line);
   border-radius: var(--radius-full);
   transition: all var(--transition-base);
   transform-origin: center;
 }
 
-.hamburger-btn.active .hamburger-line:nth-child(1) {
-  transform: translateY(7.5px) rotate(45deg);
-}
-
-.hamburger-btn.active .hamburger-line:nth-child(2) {
-  opacity: 0;
-  transform: scaleX(0);
-}
-
-.hamburger-btn.active .hamburger-line:nth-child(3) {
-  transform: translateY(-7.5px) rotate(-45deg);
-}
+.hamburger-btn.active .hamburger-line:nth-child(1) { transform: translateY(7.5px) rotate(45deg); }
+.hamburger-btn.active .hamburger-line:nth-child(2) { opacity: 0; transform: scaleX(0); }
+.hamburger-btn.active .hamburger-line:nth-child(3) { transform: translateY(-7.5px) rotate(-45deg); }

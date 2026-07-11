@@ -6,6 +6,29 @@
   <meta name="description" content="Página no encontrada - The Nakano Archives.">
   <meta name="theme-color" content="#f2a0b5">
   <title>404 · The Nakano Archives</title>
+  <script>
+    (function() {
+      var theme = localStorage.getItem('nakano-theme-preference');
+      if (theme === 'dark') {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        document.documentElement.style.setProperty('--bg-body', '#1a1219');
+        document.documentElement.style.setProperty('--bg-surface', '#261f25');
+        document.documentElement.style.setProperty('--text-primary', '#f0e6ed');
+        document.documentElement.style.setProperty('--text-secondary', '#c9bcc6');
+        document.documentElement.style.setProperty('--text-tertiary', '#a895a4');
+        document.documentElement.style.setProperty('--text-muted', '#7a6b77');
+        document.documentElement.style.setProperty('--border-light', 'rgba(255,255,255,0.08)');
+        document.documentElement.style.setProperty('--border-medium', 'rgba(255,255,255,0.12)');
+        document.documentElement.style.setProperty('--shadow-sm', '0 2px 8px rgba(0,0,0,0.3)');
+        document.documentElement.style.setProperty('--shadow-md', '0 4px 16px rgba(0,0,0,0.4)');
+        document.documentElement.style.setProperty('--shadow-lg', '0 8px 30px rgba(0,0,0,0.5)');
+        document.documentElement.style.setProperty('--bg-glass', 'rgba(38,31,37,0.7)');
+        document.documentElement.style.setProperty('--bg-glass-strong', 'rgba(38,31,37,0.85)');
+        document.documentElement.style.setProperty('--color-primary-lighter', 'rgba(242,160,181,0.12)');
+        document.documentElement.style.setProperty('--header-bg', 'rgba(26,18,25,0.85)');
+      }
+    })();
+  </script>
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/icons/favicon-16x16.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/icons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="48x48" href="/assets/img/icons/favicon-48x48.png">
@@ -87,11 +110,12 @@
         </a>
         <a href="acerca.html" class="footer-page-link">Créditos</a>
       </div>
-      <p class="footer-version">v1.0.0 — Hecho con 🌸</p>
+      <p class="footer-version">v1.1.0 — Hecho con 🌸</p>
     </div>
   </footer>
 
   <script src="../assets/js/main.js" type="module"></script>
   <script src="../assets/js/navigation.js" type="module"></script>
+  <script src="../assets/js/theme.js" type="module"></script>
 </body>
 </html>

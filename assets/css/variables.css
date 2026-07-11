@@ -1,53 +1,19 @@
+/* ================================================================
+   THE NAKANO ARCHIVES - SISTEMA GLOBAL DE VARIABLES CSS
+   Un único sistema de temas para todo el proyecto
+   ================================================================ */
+
+/* ========== TEMA CLARO (DEFAULT) ========== */
 :root {
-  /* ========== PALETA PRINCIPAL ========== */
-  --color-primary: #f2a0b5;
-  --color-primary-light: #f7c4d3;
-  --color-primary-lighter: #fde8ee;
-  --color-primary-dark: #d97a92;
-  --color-primary-darker: #b85d73;
-  
-  --color-secondary: #c5a3d4;
-  --color-secondary-light: #dbc4e5;
-  --color-secondary-lighter: #f0e6f5;
-  --color-secondary-dark: #a67dba;
-  --color-secondary-darker: #86619c;
-  
-  --color-accent: #ffd6e0;
-  --color-accent-gold: #f5d78c;
-  --color-accent-soft: #fdf2f5;
-  
-  /* ========== COLORES POR QUINTILLIZA ========== */
-  --color-ichika: #f7d06b;
-  --color-ichika-light: #fbe9b3;
-  --color-ichika-dark: #d4a93e;
-  
-  --color-nino: #e87da0;
-  --color-nino-light: #f4b8cc;
-  --color-nino-dark: #c45678;
-  
-  --color-miku: #6ba5c4;
-  --color-miku-light: #a3cde0;
-  --color-miku-dark: #4a7f9e;
-  
-  --color-yotsuba: #7ec87b;
-  --color-yotsuba-light: #b2e0af;
-  --color-yotsuba-dark: #5a9e56;
-  
-  --color-itsuki: #e86850;
-  --color-itsuki-light: #f4a092;
-  --color-itsuki-dark: #c4422d;
-  
-  /* ========== FONDOS ========== */
+  /* Fondos */
   --bg-body: #fdf6f8;
   --bg-surface: #ffffff;
   --bg-surface-hover: #fef9fb;
   --bg-glass: rgba(255, 255, 255, 0.35);
   --bg-glass-strong: rgba(255, 255, 255, 0.55);
-  --bg-glass-dark: rgba(255, 255, 255, 0.15);
   --bg-footer: #2b1e2c;
-  --bg-footer-secondary: #362836;
-  
-  /* ========== TEXTOS ========== */
+
+  /* Textos */
   --text-primary: #2d1b2c;
   --text-secondary: #5c465a;
   --text-tertiary: #8a7588;
@@ -55,14 +21,14 @@
   --text-on-dark: #f5eef2;
   --text-on-dark-secondary: #c9bcc6;
   --text-white: #ffffff;
-  
-  /* ========== BORDES ========== */
+
+  /* Bordes */
   --border-light: rgba(220, 200, 210, 0.5);
   --border-medium: rgba(200, 180, 190, 0.6);
   --border-glass: rgba(255, 255, 255, 0.5);
   --border-focused: rgba(242, 160, 181, 0.5);
-  
-  /* ========== SOMBRAS ========== */
+
+  /* Sombras */
   --shadow-xs: 0 1px 3px rgba(180, 140, 160, 0.06);
   --shadow-sm: 0 2px 8px rgba(180, 140, 160, 0.08);
   --shadow-md: 0 4px 16px rgba(180, 140, 160, 0.1);
@@ -70,14 +36,57 @@
   --shadow-xl: 0 12px 40px rgba(180, 140, 160, 0.18);
   --shadow-glass: 0 8px 32px rgba(180, 140, 160, 0.1);
   --shadow-card-hover: 0 16px 48px rgba(180, 140, 160, 0.2);
-  
+
+  /* Header */
+  --header-bg: rgba(253, 246, 248, 0.82);
+  --header-bg-scrolled: rgba(253, 246, 248, 0.95);
+  --header-border: rgba(220, 200, 210, 0.5);
+  --header-shadow: 0 4px 16px rgba(180, 140, 160, 0.1);
+  --header-hamburger-line: #2d1b2c;
+  --header-hamburger-hover: rgba(242, 160, 181, 0.1);
+
+  /* Navbar */
+  --nav-text: #5c465a;
+  --nav-text-hover: #d97a92;
+  --nav-hover-bg: rgba(242, 160, 181, 0.08);
+  --nav-active-text: #d97a92;
+  --nav-active-bg: rgba(242, 160, 181, 0.14);
+  --nav-mobile-bg: rgba(253, 246, 248, 0.98);
+
+  /* Overlays */
+  --overlay-light: rgba(253, 246, 248, 0.7);
+  --overlay-medium: rgba(45, 27, 44, 0.4);
+  --overlay-dark: rgba(45, 27, 44, 0.7);
+  --overlay-darker: rgba(20, 10, 20, 0.85);
+
+  /* Colores acento */
+  --accent-bg: #fde8ee;
+  --accent-bg-hover: #f9c4d3;
+
+  /* ========== COLORES FIJOS (no cambian con el tema) ========== */
+  --color-primary: #f2a0b5;
+  --color-primary-light: #f7c4d3;
+  --color-primary-lighter: #fde8ee;
+  --color-primary-dark: #d97a92;
+  --color-primary-darker: #b85d73;
+
+  --color-secondary: #c5a3d4;
+  --color-secondary-light: #dbc4e5;
+  --color-secondary-dark: #a67dba;
+  --color-secondary-darker: #86619c;
+
+  --color-ichika: #f7d06b;
+  --color-nino: #e87da0;
+  --color-miku: #6ba5c4;
+  --color-yotsuba: #7ec87b;
+  --color-itsuki: #e86850;
+
   /* ========== TIPOGRAFÍA ========== */
-  --font-family-base: 'Segoe UI', 'Noto Sans', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-family-heading: 'Segoe UI', 'Noto Sans', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-family-base: 'Segoe UI', 'Noto Sans', system-ui, -apple-system, sans-serif;
+  --font-family-heading: 'Segoe UI', 'Noto Sans', system-ui, -apple-system, sans-serif;
   --font-family-display: var(--font-family-heading);
-  --font-family-mono: 'Cascadia Code', 'Fira Code', 'Consolas', monospace;
-  
-  /* ========== TAMAÑOS DE FUENTE ========== */
+
+  /* ========== TAMAÑOS ========== */
   --text-2xs: 0.625rem;
   --text-xs: 0.75rem;
   --text-sm: 0.8125rem;
@@ -90,7 +99,7 @@
   --text-4xl: 2.5rem;
   --text-5xl: 3.25rem;
   --text-6xl: 4rem;
-  
+
   /* ========== ESPACIADO ========== */
   --space-3xs: 0.125rem;
   --space-2xs: 0.25rem;
@@ -103,8 +112,8 @@
   --space-3xl: 3.5rem;
   --space-4xl: 5rem;
   --space-5xl: 7rem;
-  
-  /* ========== RADIOS DE BORDE ========== */
+
+  /* ========== RADIOS ========== */
   --radius-xs: 0.25rem;
   --radius-sm: 0.5rem;
   --radius-md: 0.75rem;
@@ -113,46 +122,82 @@
   --radius-2xl: 1.5rem;
   --radius-3xl: 2rem;
   --radius-full: 9999px;
-  
+
   /* ========== TRANSICIONES ========== */
-  --transition-instant: 0.05s ease;
   --transition-fast: 0.15s cubic-bezier(0.4, 0, 0.2, 1);
   --transition-base: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
   --transition-slow: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   --transition-slower: 0.6s cubic-bezier(0.4, 0, 0.2, 1);
   --transition-bounce: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  
+
   /* ========== Z-INDEX ========== */
-  --z-base: 1;
-  --z-dropdown: 100;
-  --z-sticky: 200;
   --z-header: 1000;
   --z-overlay: 1500;
   --z-modal: 2000;
   --z-lightbox: 3000;
-  --z-toast: 4000;
   --z-tooltip: 5000;
-  
+
   /* ========== GLASSMORPHISM ========== */
   --glass-blur-sm: blur(8px);
   --glass-blur-md: blur(14px);
   --glass-blur-lg: blur(22px);
-  --glass-border: 1px solid rgba(255, 255, 255, 0.45);
-  --glass-border-strong: 1px solid rgba(255, 255, 255, 0.6);
-  
+
   /* ========== CONTENEDOR ========== */
   --container-max: 1200px;
-  --container-narrow: 900px;
-  --container-wide: 1400px;
   --container-padding: 1.5rem;
-  
-  /* ========== HEADER ========== */
   --header-height: 72px;
   --header-height-mobile: 64px;
-  
-  /* ========== OVERLAYS ========== */
-  --overlay-light: rgba(253, 246, 248, 0.7);
-  --overlay-medium: rgba(45, 27, 44, 0.4);
-  --overlay-dark: rgba(45, 27, 44, 0.7);
-  --overlay-darker: rgba(20, 10, 20, 0.85);
+}
+
+/* ================================================================
+   TEMA OSCURO - Se activa con class="dark" en <html>
+   ================================================================ */
+html.dark {
+  --bg-body: #1a1219;
+  --bg-surface: #261f25;
+  --bg-surface-hover: #2d252c;
+  --bg-glass: rgba(38, 31, 37, 0.7);
+  --bg-glass-strong: rgba(38, 31, 37, 0.85);
+
+  --text-primary: #f0e6ed;
+  --text-secondary: #c9bcc6;
+  --text-tertiary: #a895a4;
+  --text-muted: #7a6b77;
+
+  --border-light: rgba(255, 255, 255, 0.08);
+  --border-medium: rgba(255, 255, 255, 0.12);
+  --border-glass: rgba(255, 255, 255, 0.1);
+  --border-focused: rgba(242, 160, 181, 0.35);
+
+  --shadow-xs: 0 1px 3px rgba(0, 0, 0, 0.2);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.5);
+  --shadow-xl: 0 12px 40px rgba(0, 0, 0, 0.6);
+  --shadow-glass: 0 8px 32px rgba(0, 0, 0, 0.3);
+  --shadow-card-hover: 0 16px 48px rgba(0, 0, 0, 0.5);
+
+  --header-bg: rgba(26, 18, 25, 0.85);
+  --header-bg-scrolled: rgba(26, 18, 25, 0.95);
+  --header-border: rgba(255, 255, 255, 0.06);
+  --header-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  --header-hamburger-line: #d4c8d2;
+  --header-hamburger-hover: rgba(242, 160, 181, 0.15);
+
+  --nav-text: #d4c8d2;
+  --nav-text-hover: #f2a0b5;
+  --nav-hover-bg: rgba(242, 160, 181, 0.12);
+  --nav-active-text: #f2a0b5;
+  --nav-active-bg: rgba(242, 160, 181, 0.18);
+  --nav-mobile-bg: rgba(26, 18, 25, 0.98);
+
+  --overlay-light: rgba(26, 18, 25, 0.7);
+  --overlay-medium: rgba(0, 0, 0, 0.5);
+  --overlay-dark: rgba(0, 0, 0, 0.75);
+  --overlay-darker: rgba(0, 0, 0, 0.9);
+
+  --accent-bg: rgba(242, 160, 181, 0.12);
+  --accent-bg-hover: rgba(242, 160, 181, 0.2);
+
+  --color-primary-lighter: rgba(242, 160, 181, 0.12);
 }
