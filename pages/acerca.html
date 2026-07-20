@@ -3,72 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <meta name="description" content="Acerca de The Nakano Archives - Proyecto fan dedicado a Gotoubun no Hanayome.">
+  <meta name="description" content="Acerca de The Nakano Archives v1.2.0 — Proyecto fan dedicado a Gotoubun no Hanayome.">
   <meta name="theme-color" content="#f2a0b5">
   <title>Acerca · The Nakano Archives</title>
-  <script>
-    (function() {
-      var theme = localStorage.getItem('nakano-theme-preference');
-      if (theme === 'dark') {
-        document.documentElement.setAttribute('data-theme', 'dark');
-        document.documentElement.style.setProperty('--bg-body', '#1a1219');
-        document.documentElement.style.setProperty('--bg-surface', '#261f25');
-        document.documentElement.style.setProperty('--text-primary', '#f0e6ed');
-        document.documentElement.style.setProperty('--text-secondary', '#c9bcc6');
-        document.documentElement.style.setProperty('--text-tertiary', '#a895a4');
-        document.documentElement.style.setProperty('--text-muted', '#7a6b77');
-        document.documentElement.style.setProperty('--border-light', 'rgba(255,255,255,0.08)');
-        document.documentElement.style.setProperty('--border-medium', 'rgba(255,255,255,0.12)');
-        document.documentElement.style.setProperty('--shadow-sm', '0 2px 8px rgba(0,0,0,0.3)');
-        document.documentElement.style.setProperty('--shadow-md', '0 4px 16px rgba(0,0,0,0.4)');
-        document.documentElement.style.setProperty('--shadow-lg', '0 8px 30px rgba(0,0,0,0.5)');
-        document.documentElement.style.setProperty('--bg-glass', 'rgba(38,31,37,0.7)');
-        document.documentElement.style.setProperty('--bg-glass-strong', 'rgba(38,31,37,0.85)');
-        document.documentElement.style.setProperty('--color-primary-lighter', 'rgba(242,160,181,0.12)');
-        document.documentElement.style.setProperty('--header-bg', 'rgba(26,18,25,0.85)');
-      }
-    })();
-  </script>
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/icons/favicon-16x16.png">
+  <script>(function(){var t=localStorage.getItem('nakano-theme');if(t==='dark')document.documentElement.classList.add('dark');})();</script>
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/icons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="48x48" href="/assets/img/icons/favicon-48x48.png">
-  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/icons/favicon-16x16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icons/apple-touch-icon.png">
-  <link rel="mask-icon" href="/assets/img/icons/favicon-32x32.png" color="#f2a0b5">
   <link rel="manifest" href="/site.webmanifest">
-  <link rel="stylesheet" href="../assets/css/variables.css">
-  <link rel="stylesheet" href="../assets/css/style.css">
-  <link rel="stylesheet" href="../assets/css/header.css">
-  <link rel="stylesheet" href="../assets/css/navbar.css">
-  <link rel="stylesheet" href="../assets/css/acerca.css">
-  <link rel="stylesheet" href="../assets/css/stats.css">
-  <link rel="stylesheet" href="../assets/css/footer.css">
-  <link rel="stylesheet" href="../assets/css/animations.css">
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <link rel="stylesheet" href="../assets/css/pages.css">
   <link rel="stylesheet" href="../assets/css/responsive.css">
 </head>
 <body>
-  <header class="main-header">
+  <header class="main-header" id="header">
     <div class="header-container">
-      <div class="logo-area">
-        <img src="../assets/img/logo/logo.png" alt="The Nakano Archives Logo" class="logo-img" width="48" height="48">
-        <span class="site-title">The Nakano Archives</span>
-      </div>
-      <button class="hamburger-btn" aria-label="Abrir menú de navegación" aria-expanded="false">
-        <span class="hamburger-line"></span>
-        <span class="hamburger-line"></span>
-        <span class="hamburger-line"></span>
-      </button>
-      <nav class="primary-nav" role="navigation">
+      <div class="logo-area"><img src="../assets/img/logo/logo.png" alt="Logo" class="logo-img" width="56" height="56"><span class="site-title">The Nakano Archives</span></div>
+      <button class="theme-toggle-btn" id="themeToggle" aria-label="Cambiar tema">🌙</button>
+      <button class="search-toggle-btn" id="searchToggle" aria-label="Buscar"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg></button>
+      <button class="hamburger-btn" id="hamburgerBtn" aria-label="Menú" aria-expanded="false"><span class="hamburger-line"></span><span class="hamburger-line"></span><span class="hamburger-line"></span></button>
+      <nav class="primary-nav" id="primaryNav" role="navigation">
         <ul class="nav-menu">
-          <li class="nav-item"><a href="../index.html" class="nav-link">Inicio</a></li>
-          <li class="nav-item"><a href="personajes.html" class="nav-link">Personajes</a></li>
-          <li class="nav-item"><a href="galeria.html" class="nav-link">Galería</a></li>
-          <li class="nav-item"><a href="musica.html" class="nav-link">Música</a></li>
-          <li class="nav-item"><a href="curiosidades.html" class="nav-link">Curiosidades</a></li>
-          <li class="nav-item"><a href="acerca.html" class="nav-link active" aria-current="page">Acerca</a></li>
+          <li><a href="../index.html" class="nav-link">Inicio</a></li>
+          <li><a href="personajes.html" class="nav-link">Personajes</a></li>
+          <li><a href="galeria.html" class="nav-link">Galería</a></li>
+          <li><a href="musica.html" class="nav-link">Música</a></li>
+          <li><a href="curiosidades.html" class="nav-link">Curiosidades</a></li>
+          <li><a href="acerca.html" class="nav-link active" aria-current="page">Acerca</a></li>
         </ul>
       </nav>
     </div>
+    <div class="nav-overlay" id="navOverlay"></div>
   </header>
 
   <main>
@@ -83,35 +48,30 @@
         <div class="acerca-content">
           <div class="acerca-card">
             <h2>🌸 Origen del proyecto</h2>
-            <p>The Nakano Archives nace de la pasión por Gotoubun no Hanayome. Creado por fans para fans, este sitio busca ser el archivo visual más completo sobre las quintillizas Nakano, ofreciendo una experiencia elegante y moderna para explorar todo sobre esta increíble historia.</p>
+            <p>The Nakano Archives nace de la pasión por Gotoubun no Hanayome. Creado por fans para fans, este sitio busca ser el archivo visual más completo sobre las quintillizas Nakano.</p>
           </div>
-
           <div class="acerca-card">
             <h2>💻 Tecnologías</h2>
-            <p>Este sitio está construido exclusivamente con tecnologías web puras: HTML5 semántico, CSS3 moderno (Grid, Flexbox, Variables, Animaciones) y JavaScript ES6 modular. Sin frameworks, sin librerías externas, sin dependencias. Cada línea de código fue escrita artesanalmente para garantizar rendimiento y mantenibilidad.</p>
+            <p>Construido exclusivamente con HTML5, CSS3 y JavaScript ES6 puro. Sin frameworks, sin librerías externas, sin dependencias. Cada línea de código fue escrita artesanalmente para garantizar rendimiento y mantenibilidad.</p>
           </div>
-
           <div class="acerca-card">
             <h2>🎯 Objetivos</h2>
-            <p>Crear una experiencia visual premium que haga justicia a la estética del anime. Proporcionar información detallada sobre cada personaje. Ofrecer una galería completa y fácil de navegar. Celebrar la música que acompañó cada momento de la serie. Compartir curiosidades que incluso los fans más dedicados podrían no conocer.</p>
+            <p>Crear una experiencia visual premium que haga justicia a la estética del anime. Proporcionar información detallada, galería completa, música oficial y curiosidades verificadas.</p>
           </div>
-
           <div class="acerca-card">
             <h2>📦 Versión</h2>
-            <p><strong>v1.1.0</strong> — Sistema de favoritos, buscador global, lightbox profesional, tema oscuro global, playlist mejorada, estadísticas locales, easter eggs y optimización general.</p>
+            <p><strong>v1.2.0 "Harmony Update"</strong> — Reestructuración completa, rendimiento optimizado, nuevo sistema de favoritos y modo oscuro mejorado.</p>
           </div>
-
           <div class="acerca-card">
-            <h2>🙏 Créditos y agradecimientos</h2>
-            <p><strong>Autor original:</strong> Negi Haruba — Creador de Gotoubun no Hanayome.</p>
-            <p><strong>Editorial:</strong> Kodansha — Publicación del manga original.</p>
-            <p><strong>Estudio de animación:</strong> Tezuka Productions (T1) y Bibury Animation Studios (T2).</p>
-            <p><strong>Seiyuus:</strong> Kana Hanazawa, Ayana Taketatsu, Miku Itou, Ayane Sakura e Inori Minase por dar vida a las quintillizas.</p>
+            <h2>🙏 Créditos</h2>
+            <p><strong>Autor original:</strong> Negi Haruba — Creador de Gotoubun no Hanayome.<br>
+            <strong>Editorial:</strong> Kodansha.<br>
+            <strong>Estudios:</strong> Tezuka Productions (T1), Bibury Animation Studios (T2).<br>
+            <strong>Seiyuus:</strong> Kana Hanazawa, Ayana Taketatsu, Miku Itou, Ayane Sakura, Inori Minase.</p>
           </div>
-
           <div class="acerca-card disclaimer-card">
-            <h2>⚖️ Descargo de responsabilidad</h2>
-            <p>The Nakano Archives es un proyecto fan sin fines de lucro. No poseo los derechos de Gotoubun no Hanayome ni de ninguno de sus elementos. Todos los derechos pertenecen a Negi Haruba, Kodansha y respectivos titulares. Las imágenes utilizadas son propiedad de sus creadores originales.</p>
+            <h2>⚖️ Descargo</h2>
+            <p>The Nakano Archives es un proyecto fan sin fines de lucro. Todos los derechos pertenecen a sus respectivos dueños.</p>
           </div>
         </div>
       </div>
@@ -120,38 +80,22 @@
 
   <footer class="main-footer">
     <div class="footer-container">
-      <div class="footer-brand">
-        <img src="../assets/img/logo/logo.png" alt="Logo" class="footer-logo" width="36" height="36">
-        <span class="footer-title">The Nakano Archives</span>
-      </div>
-      <div class="footer-info">
-        <p>&copy; 2026 The Nakano Archives — Proyecto fan sin fines de lucro.</p>
-        <p class="footer-disclaimer">Gotoubun no Hanayome © Negi Haruba / Kodansha.</p>
-      </div>
+      <div class="footer-brand"><img src="../assets/img/logo/logo.png" alt="Logo" class="footer-logo" width="40" height="40"><span class="footer-title">The Nakano Archives</span></div>
+      <div class="footer-info"><p>&copy; 2026 The Nakano Archives — Proyecto fan sin fines de lucro.</p><p class="footer-disclaimer">Gotoubun no Hanayome © Negi Haruba / Kodansha.</p></div>
       <div class="footer-links">
-        <a href="https://github.com/PipeLev" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="GitHub">
-          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
-          </svg>
-        </a>
-        <a href="https://www.youtube.com/@pipelev" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="YouTube">
-          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
-          </svg>
-        </a>
-        <a href="https://www.twitch.tv/pipelev" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Twitch">
-          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path d="M11.571 4.714h1.715v5.143H11.57zm4.715 0H18v5.143h-1.714zM6 0L1.714 4.286v15.428h5.143V24l4.286-4.286h3.428L22.286 12V0zm14.571 11.143l-3.428 3.428h-3.429l-3 3v-3H6.857V1.714h13.714z"/>
-          </svg>
-        </a>
+        <a href="https://github.com/PipeLev" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="GitHub"><svg viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg></a>
+        <a href="https://www.youtube.com/@pipelev" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+        <a href="https://www.twitch.tv/pipelev" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Twitch"><svg viewBox="0 0 24 24"><path d="M11.571 4.714h1.715v5.143H11.57zm4.715 0H18v5.143h-1.714zM6 0L1.714 4.286v15.428h5.143V24l4.286-4.286h3.428L22.286 12V0zm14.571 11.143l-3.428 3.428h-3.429l-3 3v-3H6.857V1.714h13.714z"/></svg></a>
         <a href="acerca.html" class="footer-page-link">Créditos</a>
       </div>
-      <p class="footer-version">v1.1.0 — Hecho con 🌸</p>
+      <p class="footer-version">v1.2.0 — Hecho con 🌸</p>
     </div>
   </footer>
 
-  <script src="../assets/js/main.js" type="module"></script>
-  <script src="../assets/js/navigation.js" type="module"></script>
-  <script src="../assets/js/theme.js" type="module"></script>
+  <div class="search-overlay" id="searchOverlay"><div class="search-modal"><div class="search-header"><input type="text" class="search-global-input" id="searchGlobalInput" placeholder="Buscar..."><button class="search-close-btn" id="searchCloseBtn" aria-label="Cerrar">&times;</button></div><div class="search-results" id="searchResults"><p class="search-hint">Escribe al menos 2 caracteres...</p></div></div></div>
+  <div class="professional-lightbox" id="professionalLightbox" aria-hidden="true"><div class="lightbox-backdrop"></div><button class="lightbox-close" aria-label="Cerrar">&times;</button><button class="lightbox-prev" aria-label="Anterior">&#10094;</button><button class="lightbox-next" aria-label="Siguiente">&#10095;</button><div class="lightbox-zoom-controls"><button class="lightbox-zoom-in" aria-label="Acercar">+</button><button class="lightbox-zoom-out" aria-label="Alejar">−</button><button class="lightbox-zoom-reset" aria-label="Restablecer">1:1</button></div><div class="lightbox-image-container"><img src="" alt="" class="lightbox-main-image" id="lightboxMainImage"></div><div class="lightbox-counter"><span id="lightboxCurrent">1</span> / <span id="lightboxTotal">1</span></div></div>
+  <button class="scroll-top-btn" id="scrollTopBtn" aria-label="Volver arriba">↑</button>
+
+  <script src="../assets/js/app.js" type="module"></script>
 </body>
 </html>
