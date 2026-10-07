@@ -1,51 +1,91 @@
-# 🌸 The Nakano Archives v1.2.0 — Harmony Update
+<div align="center">
 
-![Version](https://img.shields.io/badge/version-1.2.0-f2a0b5)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![License](https://img.shields.io/badge/license-Fan%20Project-ff69b4)
+# 🌸 The Nakano Archives
 
-**El archivo definitivo sobre Gotoubun no Hanayome.**  
-Ahora más rápido, más limpio y más elegante.
+### ✦ A fan-made web project dedicated to the Nakano Quintuplets ✦
 
----
+<p>
+  <img src="https://img.shields.io/badge/Version-1.2.0-f2a0b5?style=for-the-badge" alt="Version">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/License-Fan_Project-ff69b4?style=for-the-badge" alt="License">
+</p>
 
-## ✨ Novedades en v1.2.0
+<br>
 
-- **Reestructuración total:** solo 3 archivos CSS y 3 archivos JS.
-- **Dark Mode 2.0:** unificado, sin parpadeos y con persistencia global.
-- **Galería 2.0:** lazy loading, zoom mejorado y navegación por teclado.
-- **Búsqueda inteligente:** ignora mayúsculas y acentos.
-- **Favoritos rediseñados:** con contador y limpieza integrada.
-- **Rendimiento optimizado:** 60 FPS en animaciones y menos reflows.
-- **Código limpio:** modular, reutilizable y 100% vanilla.
+> **The Nakano Archives** is a personal fan project inspired by
+> *Gotoubun no Hanayome / The Quintessential Quintuplets.*
+
+</div>
 
 ---
 
-## ⌨️ Atajos
+## 🌸 About
 
-| Tecla        | Acción                  |
-|--------------|-------------------------|
-| Ctrl + K     | Buscador global         |
-| ESC          | Cerrar modal / lightbox |
-| ← →          | Navegar imágenes        |
-| + / -        | Zoom en lightbox        |
+**The Nakano Archives** is a web project created to bring together different content related to the Nakano Quintuplets in one place.
 
----
+The project focuses on a simple, modern and responsive experience, combining information, images, music and curiosities related to the series.
 
-## 🛠 Tecnologías
-
-HTML5 · CSS3 · JavaScript ES6+  
-Cero dependencias. Cero frameworks.
+It is also a personal project for learning and experimenting with **web development, design and JavaScript**.
 
 ---
 
-## ⚖️ Licencia
+## ✦ What's inside?
 
-Proyecto fan sin fines de lucro.  
-Gotoubun no Hanayome © Negi Haruba / Kodansha.
+| Section           | Description                               |
+| :---------------- | :---------------------------------------- |
+| 🌸 **Characters** | Information about the five Nakano sisters |
+| 🖼️ **Gallery**   | Images and visual content                 |
+| 🎵 **Music**      | Selected songs and related content        |
+| ✨ **Curiosities** | Interesting information about the series  |
+| 📱 **Responsive** | Adapted for desktop, tablet and mobile    |
 
 ---
 
-**v1.2.0** — Hecho con 🌸 por fans, para fans.
+## 🎨 Design
+
+The interface follows a **soft-modern** aesthetic, combining clean layouts, subtle animations and glass-inspired elements.
+
+The goal is to keep the website visually attractive without sacrificing **simplicity, readability and performance**.
+
+---
+
+## 🛠️ Built with
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=html,css,js" alt="HTML CSS JavaScript">
+
+</div>
+
+The project uses **native web technologies**, without frontend frameworks or databases.
+
+
+---
+
+## 📌 Project Status
+
+**Current version:** `1.2.0`
+
+🟢 **Stable**
+
+The project may continue to receive improvements, visual refinements and new content over time.
+
+---
+
+## ⚠️ Disclaimer
+
+**The Nakano Archives is an unofficial fan project.**
+
+*Gotoubun no Hanayome / The Quintessential Quintuplets* and its characters belong to their respective authors and rights holders.
+
+This project is made for **personal, educational and fan purposes**.
+
+---
+
+<div align="center">
+
+### 🌸 The Nakano Archives
+
+*Made with HTML, CSS & JavaScript.*
